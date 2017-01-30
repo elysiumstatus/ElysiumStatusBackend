@@ -1,0 +1,65 @@
+{
+  "elysium": {
+    "id": "elysium",
+    "services": {
+      "logon": {
+        "id": "logon",
+        "name": "Login Server",
+        "image": "https://i.imgur.com/JX1rAjE.jpg",
+        "isRealm": false,
+        "timer": 60,
+        "ip": "164.132.233.125",
+        "port": 3724
+      },
+      "website": {
+        "id": "website",
+        "name": "Website",
+        "image": "https://i.imgur.com/Mzrli3R.jpg",
+        "isRealm": false,
+        "timer": 60,
+        "url": "https://elysium-project.org/status",
+        "port": 80
+      },
+      "elysium_pvp": {
+        "id": "elysium_pvp",
+        "name": "Elysium",
+        "image": "https://i.imgur.com/7Gisr3n.jpg",
+        "largeIcon": "https://i.imgur.com/rTF4myt.png",
+        "isRealm": true,
+        "websiteId": "Elysium",
+        "ip": "149.202.207.235",
+        "port": 8099
+      },
+      "zethkur_pvp": {
+        "id": "zethkur_pvp",
+        "name": "Zeth'Kur",
+        "image": "https://i.imgur.com/ICElhLj.jpg",
+        "largeIcon": "https://i.imgur.com/EBQXzfC.png",
+        "isRealm": true,
+        "websiteId": "Zeth&#039;Kur",
+        "ip": "151.80.103.221",
+        "port": 8093
+      },
+      "anathema_pvp": {
+        "id": "anathema_pvp",
+        "name": "Anathema",
+        "image": "https://i.imgur.com/B9QGZu3.jpg",
+        "largeIcon": "https://i.imgur.com/KErWUTg.png",
+        "isRealm": true,
+        "websiteId": "Anathema",
+        "ip": "149.202.211.5",
+        "port": 8095
+      },
+      "darrowshire_pve": {
+        "id": "darrowshire_pve",
+        "name": "Darrowshire",
+        "image": "https://i.imgur.com/KcWcbPo.jpg",
+        "largeIcon": "https://i.imgur.com/OqcjJBr.png",
+        "isRealm": true,
+        "websiteId": "Darrowshire",
+        "ip": "164.132.233.125",
+        "port": 8097
+      }
+    }
+  }
+}
