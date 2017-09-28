@@ -43,10 +43,11 @@ Please submit all bug reports through the repository's Issue Tracker and they wi
 ### Product Roadmap
 List of features where help is desired.
 
-1. Push Notifications - Topic Driven Realm status notifications
-2. Realm Status Api (Lambda Driven)
-3. Driven Realm Stats Api (Lambda Driven)
-4. Be Less Volatile (Persist Data - File or DB)
+1. ~~Push Notifications - Topic Driven Realm status notifications~~ [a4c222e](https://github.com/vanillastatus/VanillaStatusBackend/commit/a4c222e2337e9e982e6f5b4cfa386ec73ee75ea1)
+2. ~~Realm Status Api (Lambda Driven)~~ #1
+3. ~~Driven Realm Stats Api (Lambda Driven)~~ #2
+4. ~~Be Less Volatile (Persist Data - File or DB)~~ #1
+5. ¯\\\_(ツ)_/¯
 
 ## Versioning
 We use [SemVer](http://semver.org/) for versioning.

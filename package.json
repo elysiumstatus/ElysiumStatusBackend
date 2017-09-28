@@ -1,7 +1,8 @@
 {
-  "name": "elysium-status-backend",
+  "name": "vanilla-status-backend",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "Backend Services built to support ElysiumStatus Mobile App.",
   "main": "index.js",
   "scripts": {
     "start": "cross-env ENVIRONMENT=dev babel-node ./lib/app.js",
@@ -10,8 +11,8 @@
     "push": "cross-env ENVIRONMENT=dev babel-node ./lib/fcm/push.js",
     "test": "cross-env ENVIRONMENT=testing mocha --compilers js:babel-register"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "emmoistner",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.0",
     "cheerio": "1.0.0-rc.2",
