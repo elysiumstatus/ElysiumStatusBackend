@@ -1,0 +1,16 @@
+{
+  "name": "vsb-status",
+  "version": "0.1.0",
+  "description": "status endpoint for vanilla-status-backend",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flat": "^4.0.0",
+    "redis": "^2.8.0",
+    "serverless-endpoint": "0.1.0"
+  }
+}
