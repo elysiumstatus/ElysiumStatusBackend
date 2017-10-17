@@ -13,7 +13,17 @@ function status (req, res) {
   return server.getAll()
     .then((response) => {
       if (response) {
-        data.servers = response
+        // Fix string boolean. This should be moved redis util
+        Object.keys(response).forEach(key => {
+          const server = response[key]
+          if (server) {
+            server.status = server.status === 'true'
+            server.isFetching = server.isFetching === 'true'
+
+            data.servers[key] = server
+          }
+        })
+
       }
 
       return realmdata.getAll()
