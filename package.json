@@ -23,7 +23,6 @@
     "redis": "^2.8.0",
     "redux": "3.6.0",
     "redux-thunk": "2.2.0",
-    "serverless-offline": "^3.16.0",
     "source-map-support": "0.4.11"
   },
   "devDependencies": {

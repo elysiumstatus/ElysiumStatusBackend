@@ -7,7 +7,19 @@ function status (req, res) {
   const realmdata = new Redis({ prefix: 'realmdata' })
   const data = {
     servers: {},
-    autoqueue: {}
+    autoqueue: {},
+    // Dedupe this.
+    // Rely on the config file instead of hardcoding
+    organizations: {
+      "elysium": {
+        "id": "elysium",
+        "name": "Elysium"
+      },
+      "lightshope": {
+        "id": "lightshope",
+        "name": "Light's Hope"
+      }
+    }
   }
 
   return server.getAll()
@@ -19,6 +31,9 @@ function status (req, res) {
           if (server) {
             server.status = server.status === 'true'
             server.isFetching = server.isFetching === 'true'
+            server.isRealm = server.isRealm === 'true'
+            server.dontGroup = server.dontGroup === 'true'
+            server.order = parseInt(server.order)
 
             data.servers[key] = server
           }
