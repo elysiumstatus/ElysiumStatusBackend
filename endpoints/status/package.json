@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "flat": "^4.0.0",
-    "redis": "^2.8.0",
+    "flat": "4.0.0",
+    "redis": "2.8.0",
     "serverless-endpoint": "0.1.0"
   }
 }

@@ -2,14 +2,15 @@
   "name": "vanilla-status-backend",
   "version": "1.0.0",
   "private": true,
-  "description": "Backend Services built to support ElysiumStatus Mobile App.",
+  "description": "Backend Services built to support VanillaStatus Mobile App.",
   "main": "index.js",
   "scripts": {
     "start": "cross-env ENVIRONMENT=dev babel-node ./lib/app.js",
     "build": "cross-env ENVIRONMENT=production babel ./lib -d dist --copy-files",
     "serve": "cross-env ENVIRONMENT=production node dist/app.js",
     "push": "cross-env ENVIRONMENT=dev babel-node ./lib/fcm/push.js",
-    "test": "cross-env ENVIRONMENT=testing mocha --compilers js:babel-register"
+    "test": "cross-env ENVIRONMENT=testing mocha --compilers js:babel-register",
+    "parse": "cross-env ENVIRONMENT=dev babel-node ./lib/scripts/parse.js"
   },
   "author": "emmoistner",
   "license": "MIT",
