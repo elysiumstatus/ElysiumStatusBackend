@@ -43,6 +43,7 @@
       "image": "https://forum.lightshope.org/ext/planetstyles/flightdeck/store/sanctumOfLightHeader2.png",
       "largeIcon": "https://i.imgur.com/XKi1SMm.png",
       "isRealm": true,
+      "websiteId": "Elysium",
       "ip": "149.202.66.201",
       "port": 8107,
       "app": {
@@ -57,6 +58,7 @@
       "image": "https://i.imgur.com/xHgqEv7.jpg",
       "largeIcon": "https://i.imgur.com/rlX1Bfy.png",
       "isRealm": true,
+      "websiteId": "Anathema",
       "ip": "54.37.43.20",
       "port": 8991,
       "app": {
@@ -70,6 +72,7 @@
       "image": "https://i.imgur.com/lv1aYPo.jpg",
       "largeIcon": "https://i.imgur.com/xDsw4pg.png",
       "isRealm": true,
+      "websiteId": "Darrowshire",
       "ip": "54.37.43.21",
       "port": 6004,
       "app": {
