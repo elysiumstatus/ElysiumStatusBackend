@@ -10,11 +10,11 @@
     }
   },
   "services": {
-    "lightshope_logon": {
-      "id": "lightshope_logon",
+    "2600a596-02ff-49ac-855b-d71c41a71f62": {
+      "id": "2600a596-02ff-49ac-855b-d71c41a71f62",
       "organizationId": "lightshope",
       "name": "Login Server",
-      "image": "https://i.imgur.com/JX1rAjE.jpg",
+      "image": "https://i.imgur.com/c1XPr3e.png",
       "isRealm": false,
       "timer": 60,
       "ip": "149.202.66.201",
@@ -23,11 +23,11 @@
         "order": 4
       }
     },
-    "lightshope_website": {
-      "id": "lightshope_website",
+    "1eda2b4c-a58e-44a3-b268-835dc8c66d1c": {
+      "id": "1eda2b4c-a58e-44a3-b268-835dc8c66d1c",
       "organizationId": "lightshope",
       "name": "Website",
-      "image": "https://i.imgur.com/Mzrli3R.jpg",
+      "image": "https://i.imgur.com/K5mygw8.png",
       "isRealm": false,
       "timer": 60,
       "url": "http://lightshope.org/",
@@ -36,12 +36,12 @@
         "order": 5
       }
     },
-    "lightshope_elysium_pvp": {
-      "id": "lightshope_elysium_pvp",
+    "febd1f7d-413b-47f7-a4ef-99e1667b76d7": {
+      "id": "febd1f7d-413b-47f7-a4ef-99e1667b76d7",
       "organizationId": "lightshope",
       "name": "Elysium",
-      "image": "https://i.imgur.com/7Gisr3n.jpg",
-      "largeIcon": "https://i.imgur.com/rTF4myt.png",
+      "image": "https://forum.lightshope.org/ext/planetstyles/flightdeck/store/sanctumOfLightHeader2.png",
+      "largeIcon": "https://i.imgur.com/XKi1SMm.png",
       "isRealm": true,
       "ip": "149.202.66.201",
       "port": 8107,
@@ -50,12 +50,12 @@
         "dontGroup": true
       }
     },
-    "lightshope_anathema_pvp": {
-      "id": "lightshope_anathema_pvp",
+    "d07afb03-0bc1-44e2-abc6-ede92995019e": {
+      "id": "d07afb03-0bc1-44e2-abc6-ede92995019e",
       "organizationId": "lightshope",
       "name": "Anathema",
-      "image": "https://i.imgur.com/B9QGZu3.jpg",
-      "largeIcon": "https://i.imgur.com/KErWUTg.png",
+      "image": "https://i.imgur.com/xHgqEv7.jpg",
+      "largeIcon": "https://i.imgur.com/rlX1Bfy.png",
       "isRealm": true,
       "ip": "54.37.43.20",
       "port": 8991,
@@ -63,12 +63,12 @@
         "order": 2
       }
     },
-    "lightshope_darrowshire_pve": {
-      "id": "lightshope_darrowshire_pve",
+    "1747c158-3a36-4176-9dd1-2c43b1b64610": {
+      "id": "1747c158-3a36-4176-9dd1-2c43b1b64610",
       "organizationId": "lightshope",
       "name": "Darrowshire",
-      "image": "https://i.imgur.com/KcWcbPo.jpg",
-      "largeIcon": "https://i.imgur.com/OqcjJBr.png",
+      "image": "https://i.imgur.com/lv1aYPo.jpg",
+      "largeIcon": "https://i.imgur.com/xDsw4pg.png",
       "isRealm": true,
       "ip": "54.37.43.21",
       "port": 6004,
@@ -76,78 +76,49 @@
         "order": 3
       }
     },
-    "elysium_logon": {
-      "id": "elysium_logon",
+    "logon": {
+      "id": "logon",
       "organizationId": "elysium",
       "name": "Login Server",
       "image": "https://i.imgur.com/JX1rAjE.jpg",
       "isRealm": false,
       "timer": 60,
-      "ip": "164.132.233.125",
+      "ip": "79.137.5.136",
       "port": 3724,
       "app": {
         "order": 9
       }
     },
-    "elysium_website": {
-      "id": "elysium_website",
+    "website": {
+      "id": "website",
       "organizationId": "elysium",
       "name": "Website",
       "image": "https://i.imgur.com/Mzrli3R.jpg",
       "isRealm": false,
-      "parseServices": [
-        "elysium_darrowshire_pve",
-        "elysium_elysium_pvp",
-        "elysium_anathema_pvp"
-      ],
       "timer": 60,
-      "url": "https://elysium-project.org/status",
+      "url": "https://elysium-project.org",
       "port": 80,
       "app": {
         "order": 10
       }
     },
-    "elysium_elysium_pvp": {
-      "id": "elysium_elysium_pvp",
+    "19d3e6d3-10cb-467c-8e64-2404765dad7c": {
+      "id": "19d3e6d3-10cb-467c-8e64-2404765dad7c",
       "organizationId": "elysium",
-      "name": "Elysium",
-      "image": "https://i.imgur.com/7Gisr3n.jpg",
-      "largeIcon": "https://i.imgur.com/rTF4myt.png",
-      "isRealm": true,
-      "websiteId": "Elysium",
-      "ip": "149.202.207.235",
-      "port": 8107,
+      "name": "Nighthaven",
       "app": {
         "order": 6,
         "dontGroup": true
-      }
-    },
-    "elysium_anathema_pvp": {
-      "id": "elysium_anathema_pvp",
-      "organizationId": "elysium",
-      "name": "Anathema",
-      "image": "https://i.imgur.com/B9QGZu3.jpg",
-      "largeIcon": "https://i.imgur.com/KErWUTg.png",
+      },
+      "image": "https://i.imgur.com/7Gisr3n.jpg",
+      "largeIcon": "https://i.imgur.com/rTF4myt.png",
       "isRealm": true,
-      "websiteId": "Anathema",
-      "ip": "147.135.201.41",
-      "port": 55107,
+      "websiteId": "Nighthaven",
+      "ip": "51.254.146.161",
+      "port": 8090,
       "app": {
-        "order": 7
-      }
-    },
-    "elysium_darrowshire_pve": {
-      "id": "elysium_darrowshire_pve",
-      "organizationId": "elysium",
-      "name": "Darrowshire",
-      "image": "https://i.imgur.com/KcWcbPo.jpg",
-      "largeIcon": "https://i.imgur.com/OqcjJBr.png",
-      "isRealm": true,
-      "websiteId": "Darrowshire",
-      "ip": "147.135.201.42",
-      "port": 55106,
-      "app": {
-        "order": 8
+        "order": 6,
+        "dontGroup": true
       }
     }
   }

@@ -5,6 +5,7 @@ const Redis = require('./redis')
 function status (req, res) {
   const server = new Redis()
   const realmdata = new Redis({ prefix: 'realmdata' })
+  let lastUpdated = null
   const data = {
     servers: {},
     autoqueue: {},
@@ -35,6 +36,10 @@ function status (req, res) {
             server.dontGroup = server.dontGroup === 'true'
             server.order = parseInt(server.order)
 
+            if (server.lastUpdated && !lastUpdated || (lastUpdated < server.lastUpdated)) {
+              lastUpdated = server.lastUpdated
+            }
+
             data.servers[key] = server
           }
         })
@@ -52,6 +57,7 @@ function status (req, res) {
       }
     })
     .then(() => {
+      data.lastUpdated = lastUpdated
       return res.send(200, data)
     })
     .catch(e => {
