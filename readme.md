@@ -1,6 +1,6 @@
 <img src='./images/banner.png' />
 
-> Backend Services built to support ElysiumStatus Mobile App.
+> Backend Services built to support Vanilla Status Mobile App.
 
 * **Current Status**: Development
 
