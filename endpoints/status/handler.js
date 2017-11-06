@@ -3,6 +3,14 @@ const endpoint = require('serverless-endpoint')
 const Redis = require('./redis')
 
 function status (req, res) {
+    /** Immediate response for WarmUP plugin */
+  if (req.getOriginalRequest().event.source === 'serverless-plugin-warmup') {
+    console.log('We are keeping this warm!')
+    // Escape request
+    return res.send(null)
+  }
+
+
   const server = new Redis()
   const realmdata = new Redis({ prefix: 'realmdata' })
   let lastUpdated = null

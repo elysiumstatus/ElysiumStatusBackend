@@ -12,5 +12,8 @@
     "flat": "4.0.0",
     "redis": "2.8.0",
     "serverless-endpoint": "0.1.0"
+  },
+  "devDependencies": {
+    "serverless-plugin-warmup": "3.3.0-rc.1"
   }
 }
