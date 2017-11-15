@@ -39,11 +39,11 @@
     "febd1f7d-413b-47f7-a4ef-99e1667b76d7": {
       "id": "febd1f7d-413b-47f7-a4ef-99e1667b76d7",
       "organizationId": "lightshope",
-      "name": "Elysium",
+      "name": "Lightbringer",
       "image": "https://forum.lightshope.org/ext/planetstyles/flightdeck/store/sanctumOfLightHeader2.png",
       "largeIcon": "https://i.imgur.com/XKi1SMm.png",
       "isRealm": true,
-      "websiteId": "Elysium",
+      "websiteId": "Lightbringer",
       "ip": "149.202.66.201",
       "port": 8107,
       "app": {
